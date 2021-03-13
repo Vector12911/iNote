@@ -1,0 +1,82 @@
+body{
+	background-color: #f1eff7;
+	font-family: 'Roboto';
+	font-size: 22px;
+	color: #2a1369;
+}
+
+#navbr{
+	background-color: #ab9ad8;
+
+}
+.container {
+	background-color: #828282;
+}
+
+.noteCard{
+	background-color: #ab9ad8;
+}
+
+#logo{
+	color:#463082;
+}
+
+.card-text{
+	color: #2a1369;
+}
+
+.container {
+	background-color: #beb3dc;
+}
+.clr{
+	color: #1b0850;
+}
+
+/*button color*/
+.clrbtn{
+	background-color:#1b0850; 
+}
+
+/*.tggle{
+	background-color: #331b75;
+	}*/
+/*.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #7eb444;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    }*/
+
+
+#title1{
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	color: #2a1369;
+}
+
+.titleclass:focus {
+  outline: none;
+}
+
+.titlebold{
+	font-weight: bold;
+}
+
+
+#addText{
+	font-family: 'Roboto';
+	font-size: 22px;
+	color: #2a1369;
+}
+	
+.color{
+	/*background-color: rgb(235, 204, 255);*/
+}

@@ -152,13 +152,14 @@ let search = document.getElementById("searchText");
 
 search.addEventListener("input",function(){
 
-	let inputVal = search.value;
+	let inputVal = search.value.toLowerCase();
 	// console.log("input event is fired : ",inputVal);
 	var notecard = document.getElementsByClassName("noteCard");
 	// var notecard = document.getElementsByClassName("card-text");
 	for (var i = 0; i < notecard.length; i++) {
 		var val = notecard[i].children[0].getElementsByTagName("p")[0].innerText; 
 		// console.log(notecard[i]);
+		val.toLowerCase();
 		if(val.includes(inputVal))
 		{
 			// console.log(val);
